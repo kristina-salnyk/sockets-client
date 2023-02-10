@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import io from "socket.io-client";
 
 const socket = {
-  current: io("http://localhost:3001/"),
+  current: io("https://sockets-jh4u.onrender.com"),
 };
 
 const Chat = () => {
